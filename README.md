@@ -4,10 +4,8 @@ Collection of the different sort of own data analysis performed with help of IPy
 
 ### Dependencies
 
-#### Dependencies
-
 * [Python 2.7](http://www.python.org/download/)
 
-#### Author
+### Author
 
 * Viktor Dmitriyev
