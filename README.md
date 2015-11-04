@@ -11,6 +11,14 @@ Collection of the different sort of own data analysis performed with help of IPy
 * **Plotting data from the weather web site [tutiempo.net](http://en.tutiempo.net/)**
     - Check this analysis at the [nbviewer](http://nbviewer.ipython.org/github/vdmitriyev/data-analysis-ipython/blob/master/tutiempo/tutiempo.ipynb) or at [github](https://github.com/vdmitriyev/data-analysis-ipython/blob/master/tutiempo/tutiempo.ipynb)
 
+### Starting
+
+* Start IPython with Anaconda on machine with Windows for github repository
+```bash
+activate analysis
+ipython notebook --ip='*' --notebook-dir=D:\git\data-analysis-ipython\
+```
+
 ### Author
 
 * Viktor Dmitriyev
