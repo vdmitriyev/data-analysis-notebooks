@@ -10,6 +10,8 @@ Collection of the different sort of own data analysis performed with help of IPy
 
 * **Plotting data from the weather web site [tutiempo.net](http://en.tutiempo.net/)**
     - Check this analysis at the [nbviewer](http://nbviewer.ipython.org/github/vdmitriyev/data-analysis-ipython/blob/master/tutiempo/tutiempo.ipynb) or at [github](https://github.com/vdmitriyev/data-analysis-ipython/blob/master/tutiempo/tutiempo.ipynb)
+* **Sample analysis of Iris with sklearn**
+    - Check this analysis at the [nbviewer](http://nbviewer.ipython.org/github/vdmitriyev/data-analysis-ipython/blob/master/iris/iris.ipynb) or at [github](https://github.com/vdmitriyev/data-analysis-ipython/blob/master/iris/iris.ipynb)
 
 ### Starting
 
