@@ -1,2 +1,11 @@
+.ipynb_checkpoints/*
+
 iris/.ipynb_checkpoints/*
 tutiempo/.ipynb_checkpoints/*
+
+quasars/.ipynb_checkpoints/*
+quasars/data/*
+
+
+galaxies/.ipynb_checkpoints/*
+galaxies/data/*
