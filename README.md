@@ -22,14 +22,13 @@ Collection of the different sort of own data analysis performed with help of IPy
 
 * Start Jupyther Notebook with Anacoda
 ```bash
+jupyter notebook
 ```
 * Start IPython with Anaconda on machine with Windows for github repository
 ```bash
 activate analysis
 ipython notebook --ip='*' --notebook-dir=D:\git\data-analysis-ipython\
 ```
-
-
 
 ### Author
 
