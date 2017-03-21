@@ -17,6 +17,8 @@ Collection of the different sort of own data analysis performed with help of IPy
 * **Repeating data analysis of energy efficiency dataset previouslt done in publication**
     - Check
     - Based on publication ['Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools'](https://scholar.google.com/scholar?hl=en&q=A.+Tsanas%2C+A.+Xifara%3A+%27Accurate+quantitative+estimation+of+energy+performance+of+residential+buildings+using+statistical+machine+learning+tools%27%2C+Energy+and+Buildings%2C+Vol.+49%2C+pp.+560-567%2C+2012&btnG=&as_sdt=1%2C5&as_sdtp=) by A. Tsanas and A. Xifara published in Energy and Buildings, Vol. 49, pp. 560-567, 2012.
+* **Plotting irradiance data gathered by Solar Measurement Grid, Oahu, Hawaii provided by NREL**
+    - To download data you may want to use script "download_nrel_oahu_solar.py" provided inside "nrel-oahu-solar/data" folder
 
 ### Starting
 
