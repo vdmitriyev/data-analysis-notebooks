@@ -32,15 +32,19 @@ activate analysis
 ipython notebook --ip='*' --notebook-dir=D:\git\data-analysis-ipython\
 ```
 
-### Data Analytics Materials 
+### Data Analytics Materials
 
 * Data Preprocessing
-     - [Preprocessing in Data Science (Part 1): Centering, Scaling, and knn](https://www.datacamp.com/community/tutorials/preprocessing-in-data-science-part-1-centering-scaling-and-knn#gs.XJ7SfLk)
-    - [Kaggle bulldozers: Basic cleaning](http://danielfrg.com/blog/2013/03/07/kaggle-bulldozers-basic-cleaning/)
+    + [Preprocessing in Data Science (Part 1): Centering, Scaling, and knn](https://www.datacamp.com/community/tutorials/preprocessing-in-data-science-part-1-centering-scaling-and-knn#gs.XJ7SfLk)
+    + [Kaggle bulldozers: Basic cleaning](http://danielfrg.com/blog/2013/03/07/kaggle-bulldozers-basic-cleaning/)
 
 * Jupyter Notebooks from Books
-    - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) by Jake Vanderplas
-    
+    + [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook) by Jake Vanderplas
+
+* Tutorials and Videos
+    + [Reproducible Data Analysis in Jupyter](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/)
+        - Very short, but descriptive video colletion by Jake Vanderplas, git repository is here - [JupyterWorkflow](https://github.com/jakevdp/JupyterWorkflow)
+
 ### Author
 
 * Viktor Dmitriyev
