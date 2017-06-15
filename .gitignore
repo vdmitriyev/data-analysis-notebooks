@@ -18,3 +18,6 @@ onlinegame-mlbootcamp-2017/*.html
 nrel-oahu-solar/.ipynb_checkpoints/*
 nrel-oahu-solar/*.html
 nrel-oahu-solar/*.csv
+
+anomaly-detection/.ipynb_checkpoints/*
+anomaly-detection/*.html
