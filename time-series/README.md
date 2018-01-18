@@ -35,6 +35,7 @@ A simplified collection of a time-series analysis methods.
         + In looks like in PMML 4.3, only **Exponential Smoothing** is defined, whether other algorithms/methods are planned for later versions and have only placeholders
         + It looks like situation didn't change since 2010 -> http://standardwisdom.com/softwarejournal/2010/11/arima-and-seasonality-adjustment-support-in-pmml-4-0/
         + Was suggested in 2011, updated in 2016, maybe will appear in 4.4 PMML version (according to the issue tracker of DMG - http://mantis.dmg.org/)
+        + PMML Example - http://dmg.org/pmml/pmml_examples/index.html
     - [JPMML-SkLearn](https://github.com/jpmml/jpmml-sklearn)
 * [ARCH models in Python](https://github.com/bashtage/arch#volatility) <- github
     - [ARCH Modeling, An example with IPython Notebook](http://nbviewer.jupyter.org/github/bashtage/arch/blob/master/examples/univariate_volatility_modeling.ipynb)
@@ -43,3 +44,5 @@ A simplified collection of a time-series analysis methods.
 ### "Methods and Code" Examples
 
 * [How to Decompose Time Series Data into Trend and Seasonality](https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/)
+* [A comprehensive beginner’s guide to create a Time Series Forecast (with Codes in Python)](https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/)
+* [How to Create an ARIMA Model for Time Series Forecasting with Python](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/)
