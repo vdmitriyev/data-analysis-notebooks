@@ -7,6 +7,13 @@ Collection of the different sort of own data analysis performed with help of IPy
 * Install one of the following
     - [Python 2.7](http://www.python.org/download/) + Packages
     - [Anacoda](https://www.continuum.io/downloads)
+* Update Anaconda
+    - [How to update already installed anaconda](https://stackoverflow.com/questions/45197777/how-do-i-update-anaconda)
+    - ```
+        conda update conda
+        conda update anaconda
+        conda update --all
+      ```
 
 ### Data Analysis
 
