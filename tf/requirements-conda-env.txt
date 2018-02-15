@@ -1,0 +1,5 @@
+ipykernel
+matplotlib
+tqdm
+seaborn
+scikit-learn

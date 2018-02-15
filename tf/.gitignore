@@ -1,0 +1,8 @@
+.idea
+venv/*
+.ipynb_checkpoints
+htmls/*
+pngs/*
+ckpts/*
+logs/*
+tf-logs/*
