@@ -21,3 +21,4 @@ nrel-oahu-solar/*.csv
 
 anomaly-detection/.ipynb_checkpoints/*
 anomaly-detection/*.html
+anomaly-detection/*.csv
