@@ -28,3 +28,8 @@ hana/.ipynb_checkpoints/*
 hana/__pycache__
 hana/htmls/*.html
 hana/data/*
+
+data-in-pdf-tables/htmls/*
+data-in-pdf-tables/.ipynb_checkpoints/*
+data-in-pdf-tables/PDFs/*
+
