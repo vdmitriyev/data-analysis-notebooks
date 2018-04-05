@@ -22,3 +22,9 @@ nrel-oahu-solar/*.csv
 anomaly-detection/.ipynb_checkpoints/*
 anomaly-detection/*.html
 anomaly-detection/*.csv
+
+hana/settings.py
+hana/.ipynb_checkpoints/*
+hana/__pycache__
+hana/htmls/*.html
+hana/data/*
