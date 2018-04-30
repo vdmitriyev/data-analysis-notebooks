@@ -27,7 +27,10 @@ hana/settings.py
 hana/.ipynb_checkpoints/*
 hana/__pycache__
 hana/htmls/*.html
+hana/*.html
 hana/data/*
+hana/archives/*
+
 
 data-in-pdf-tables/htmls/*
 data-in-pdf-tables/.ipynb_checkpoints/*
