@@ -31,8 +31,9 @@ hana/*.html
 hana/data/*
 hana/archives/*
 
-
 data-in-pdf-tables/htmls/*
 data-in-pdf-tables/.ipynb_checkpoints/*
 data-in-pdf-tables/PDFs/*
+data-in-pdf-tables/archives/*
+
 
