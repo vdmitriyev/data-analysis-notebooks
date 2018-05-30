@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <!-- Load TensorFlow.js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.2"> </script>-->
+	<script type="text/javascript" src="assets/js/tfjs@0.11.2.js"> </script>
+	
+
+    <!-- Place your code in the script tag below. You can also use an external .js file -->
+    <script>
+      // Notice there is no 'import' statement. 'tf' is available on the index-page
+      // because of the script tag above.
+
+      // Define a model for linear regression.
+      const modelTmp = tf.sequential();
+      modelTmp.add(tf.layers.dense({units: 1, inputShape: [1]}));
+
+      // Prepare the model for training: Specify the loss and the optimizer.
+      modelTmp.compile({loss: 'meanSquaredError', optimizer: 'sgd'});
+
+      // Generate some synthetic data for training.
+      const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
+      const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
+
+      // Train the model using the data.
+      modelTmp.fit(xs, ys).then(() => {
+        // Use the model to do inference on a data point the model hasn't seen before:
+        // Open the browser devtools to see the output
+        modelTmp.predict(tf.tensor2d([5], [1, 1])).print();
+      });
+	  
+	  
+	// 2x3 Tensor
+	const shape = [2, 3]; // 2 rows, 3 columns
+	const aTmp = tf.tensor([1.0, 2.0, 3.0, 10.0, 20.0, 30.0], shape);
+	aTmp.print(); // print Tensor values
+	// Output: [[1 , 2 , 3 ],
+	//          [10, 20, 30]]
+
+	// The shape can also be inferred:
+	const bTmp = tf.tensor([[1.0, 2.0, 3.0], [10.0, 20.0, 30.0]]);
+	bTmp.print();
+	// Output: [[1 , 2 , 3 ],
+	//          [10, 20, 30]]
+    </script>
+  </head>
+
+  <body>
+  </body>
+</html>
