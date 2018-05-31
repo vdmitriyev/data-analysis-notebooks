@@ -5,4 +5,5 @@ htmls/*
 pngs/*
 ckpts/*
 logs/*
+data/*
 tf-logs/*
