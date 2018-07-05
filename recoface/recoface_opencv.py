@@ -7,14 +7,11 @@ __description__ = 'A face recongnition script. The files have to be located into
 import os
 import cv2
 import time
-import random
-import requests
-import datetime
 import face_recognition
 
-from pygame import mixer
 
 def get_images():
+    '''Get a list of iamges inside the folder - "images".'''
 
     images = []
 
@@ -27,6 +24,7 @@ def get_images():
     return images
 
 def get_known_faces(images):
+    '''Load known faces. The subfolders are used as names.'''
 
     known_faces_encodings = []
     known_faces_names = []
@@ -47,25 +45,11 @@ def get_known_faces(images):
 def face_detection(face_encoding, known_faces_encodings, known_faces_names):
 
     name = "Unknown"
-
     matches = face_recognition.compare_faces(known_faces_encodings, face_encoding)
     if True in matches:
         first_match_index = matches.index(True)
         name = known_faces_names[first_match_index]
-
     return name
-
-# def welcome(type):
-
-#     messages = {
-#         'hello': [os.path.join(welcome_folder, file) for file in ['hello_01.wav', 'hello_02.wav', 'hello_03.wav', 'hello_04.wav', 'hello_05.wav']],
-#         'welcome': [os.path.join(welcome_folder, file) for file in ['welcome_01.wav', 'welcome_02.wav', 'welcome_03.wav']],
-#         'unwelcome': [os.path.join(welcome_folder, file) for file in ['unwelcome_01.mp3', 'unwelcome_02.mp3', 'unwelcome_03.wav', 'unwelcome_04.wav', 'unwelcome_05.wav']],
-#         'whoareyou': [os.path.join(welcome_folder, file) for file in ['whoareyou_01.wav', 'whoareyou_02.wav', 'whoareyou_03.wav', 'whoareyou_04.wav']]
-#     }
-#     mixer.init()
-#     mixer.music.load(random.choice(messages[type]))
-#     mixer.music.play()
 
 def process(known_faces_encodings, known_faces_names):
 
@@ -78,9 +62,6 @@ def process(known_faces_encodings, known_faces_names):
     process_this_frame = True
 
     while True:
-
-        #print(known_faces_encodings)
-        #break
 
         # Grab a single frame of video
         ret, frame = video_capture.read()
