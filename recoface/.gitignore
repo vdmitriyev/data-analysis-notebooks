@@ -1,0 +1,4 @@
+*.pyc
+*.txt
+images/*
+music/*
