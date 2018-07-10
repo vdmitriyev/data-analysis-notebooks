@@ -8,6 +8,7 @@ import os
 import cv2
 import time
 import face_recognition
+from pygame import mixer
 
 
 def get_images():
@@ -51,6 +52,21 @@ def face_detection(face_encoding, known_faces_encodings, known_faces_names):
         name = known_faces_names[first_match_index]
     return name
 
+def say_hello(name, played_sounds):
+
+    #sound = 'sounds/{0}/hi-{0}.mp3'.format(name)
+    sound = 'sounds/{0}/hay-{0}.mp3'.format(name)
+
+    if os.path.exists(sound):
+
+        if sound not in played_sounds:
+            mixer.init()
+            mixer.music.load(sound)
+            mixer.music.play()
+            played_sounds[sound] = sound
+
+    return played_sounds
+
 def process(known_faces_encodings, known_faces_names):
 
     video_capture = cv2.VideoCapture(0)
@@ -60,6 +76,8 @@ def process(known_faces_encodings, known_faces_names):
     face_encodings = []
     face_names = []
     process_this_frame = True
+
+    played_sounds = {}
 
     while True:
 
@@ -103,6 +121,7 @@ def process(known_faces_encodings, known_faces_names):
             cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
             font = cv2.FONT_HERSHEY_DUPLEX
             cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
+            played_sounds = say_hello(name, played_sounds)
 
         # Display the resulting image
         cv2.imshow('VideoStream', frame)

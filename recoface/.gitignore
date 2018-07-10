@@ -1,4 +1,7 @@
 *.pyc
 *.txt
+_temp/*
 images/*
 music/*
+sounds/*
+textToSpeech.bat
