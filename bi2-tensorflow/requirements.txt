@@ -1,0 +1,13 @@
+opencv-contrib-python
+pygame
+
+# dlib
+# conda install -c conda-forge dlib=19.4
+
+# face_recognition
+# pip3 --no-cache-dir install face_recognition
+
+imutils
+
+# for input_data
+tensorflow
