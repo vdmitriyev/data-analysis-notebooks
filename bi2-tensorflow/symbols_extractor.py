@@ -46,6 +46,10 @@ def fetch_symbols_from_captcha(image_path):
         padding = 1
         _croped = ref[y-padding:y+h+padding, x-padding:x+w+padding]
         _croped = cv2.resize(_croped, (50, 50))
+
+        # cv2.imshow('SimpleImageShower-ref', _croped)
+        # cv2.waitKey(0)
+
         cv2.imwrite('images/{0}-captcha.png'.format(index), _croped)
         symbols.append(_croped)
 
@@ -86,8 +90,8 @@ def main(args):
 
     symbols = fetch_symbols_from_captcha(args['image'])
 
-    train_dir = 'c:\\repositories\\pycaptcha\\train\\'
-    images, labels = load_data(train_dir)
+    #train_dir = 'c:\\repositories\\pycaptcha\\train\\'
+    #images, labels = load_data(train_dir)
 
 if __name__ == '__main__':
 
