@@ -10,7 +10,7 @@ galaxies/.ipynb_checkpoints/*
 galaxies/data/*
 
 energy-residential-buildings/.ipynb_checkpoints/*
-energy-residential-buildings/energy-residential-buildings.html
+energy-residential-buildings/*.html
 
 onlinegame-mlbootcamp-2017/.ipynb_checkpoints/*
 onlinegame-mlbootcamp-2017/*.html
