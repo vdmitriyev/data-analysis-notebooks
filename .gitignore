@@ -38,3 +38,12 @@ data-in-pdf-tables/archives/*
 
 
 tf.js/assets/*
+
+reinforcement/.ipynb_checkpoints/*
+reinforcement/htmls/*
+reinforcement/htmls/.ipynb_checkpoints/*
+
+
+visualization-fun/htmls/*
+visualization-fun/HTML/*
+visualization-fun/.ipynb_checkpoints/*
